@@ -31,6 +31,14 @@ function saveFieldWithFullStreamPath(infos, event, callback) {
     {
       method: 'streams.create',
       params: {
+        id: 'projects',
+        name: 'Projects',
+        parentId: 'metaforms', // this stream was created during app token generation
+      }
+    },
+    {
+      method: 'streams.create',
+      params: {
         id: infos.project.id,
         name: infos.project.name,
         parentId: 'projects',

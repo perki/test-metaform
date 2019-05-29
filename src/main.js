@@ -1,7 +1,16 @@
 const metaformsStreamId = 'metaforms';
 
-const patient = require('./credentials');
+
 const saveField = require('./saveField');
+
+
+// ------ START OF DATA WE SUPPOSE YOU HAVE IN THE CONTEXT OF METAFORM ---- //
+
+const patient =  {
+	username: 'test23',
+	token: 'cjw9b8e5600601hd34ivoc1tm',
+	domain: 'pryv.me',
+};
 
 const project = {
 	id: 'first',
@@ -33,6 +42,13 @@ const fieldHeight = {
 	record: record1
 }
 
+
+// -------------- END OF CONTEXT DATA -----//
+
+
+/**
+ * Call to be issued at every field saved
+ */
 saveField({ 
 	patient: patient, 
 	project: project, 
