@@ -1,0 +1,12 @@
+{
+  "author": "Perki <perki@pryv.com>",
+  "name": "test-metaform",
+  "version": "0.0.1",
+  "private": true,
+  "homepage": "http://pryv.com",
+  "dependencies": {
+    "superagent": "^5.0.5"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {}
+}
