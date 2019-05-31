@@ -14,7 +14,7 @@ Feel free to modify the data in order to create other data points.
 
 You can visualize the data using:
 
-- the dashboard app: [https://mfdemo1.pryv.me](https://mfdemo1.pryv.me)
+- the dashboard app: [https://mfdemo1.pryv.me](https://mfdemo1.pryv.me) (password: mfdemo1)
 - the API call for streams: [https://mfdemo1.pryv.me/streams?auth=cjwbz6m0300871j405lqtfqsp](https://mfdemo1.pryv.me/streams?auth=cjwbz6m0300871j405lqtfqsp)
 - the API call for events: [https://mfdemo1.pryv.me/events?auth=cjwbz6m0300871j405lqtfqsp](https://mfdemo1.pryv.me/events?auth=cjwbz6m0300871j405lqtfqsp)
 - The API call for events of a certain record: [https://mfdemo1.pryv.me/events?auth=cjwbz6m0300871j405lqtfqsp&tags[]=record-mf-oiabwoidaw](https://mfdemo1.pryv.me/events?auth=cjwbz6m0300871j405lqtfqsp&tags[]=record-mf-oiabwoidaw)
