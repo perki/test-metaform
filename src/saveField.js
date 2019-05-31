@@ -50,20 +50,9 @@ function saveFieldWithFullStreamPath(infos, event, callback) {
     {
       method: 'streams.create',
       params: {
-        id: infos.form.id,
-        name: infos.form.name,
-        parentId: infos.project.id,
-        clientData: {
-          'metaforms:type': 'form',
-        },
-      }
-    },
-    {
-      method: 'streams.create',
-      params: {
         id: infos.field.id,
         name: infos.field.name,
-        parentId: infos.form.id,
+        parentId: infos.project.id,
         clientData: {
           'metaforms:type': 'field',
         },

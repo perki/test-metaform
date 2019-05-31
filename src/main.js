@@ -6,28 +6,23 @@ const saveField = require('./saveField');
 
 // ------ START OF DATA WE SUPPOSE YOU HAVE IN THE CONTEXT OF METAFORM ---- //
 
-const patient =  {
-	username: 'test23',
-	token: 'cjw9b8e5600601hd34ivoc1tm',
+const patient = {
+	username: 'mfdemo1',
+	token: 'cjwbz6m0300871j405lqtfqsp',
 	domain: 'pryv.me',
 };
 
 const project = {
-	id: 'first',
+	id: 'project-mf-irst',
 	name: 'First Project'
 }
 
-const form = {
-	id: 'body',
-	name: 'Body',
-}
-
 const record1 = {
-	id: 'record-a'
+	id: 'record-mf-oiabwoidaw'
 }
 
 const fieldMass = {
-	id: 'body-mass',
+	id: 'field-mf-oiawdoinaowin',
 	name: 'Body Mass',
 	type: 'kg',
 	content: 72,
@@ -35,7 +30,7 @@ const fieldMass = {
 }
 
 const fieldHeight = {
-	id: 'body-height',
+	id: 'field-mf-ubdoib2obu4',
 	name: 'Body Height',
 	type: 'cm',
 	content: 178,
@@ -52,8 +47,7 @@ const fieldHeight = {
 saveField({ 
 	patient: patient, 
 	project: project, 
-	form: form,
-	field: fieldHeight 
+	field: fieldMass 
 }, function (err, res) {
 	console.log('done', err, JSON.stringify(res, null, 2));
 } );
