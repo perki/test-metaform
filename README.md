@@ -26,7 +26,7 @@ For this example we use the pryv.me platform with username:mfdemo1 and password:
 
 ### Assumptions 
 
-- We assumed that **tags** on Pryv could be the holder for **mataform's records**
+- We assumed that **tags** on Pryv could be the holder for **metaform's records**
 - All other objects from metaform have their own id and will be used to create a stream structure (as per the current docuement we exchanged)
 
 
